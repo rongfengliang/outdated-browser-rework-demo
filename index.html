@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>web page test</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="outdated"></div>
+    <script src="index.js"></script>
+    <div id="content">
+    </div>
+    <script>
+        let info = "dalong"
+        const resultinfo = `this is a demo page ${info}`
+        let contentElement= document.getElementById("content");
+        contentElement.innerHTML=`${resultinfo}`
+    </script>
+</body>
+
+</html>
